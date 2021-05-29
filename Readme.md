@@ -47,8 +47,8 @@ rustflags = [ "-L", "path\to\libs\arm"]
 ## Limitations
 
 * I have not yet tested that all the imports work.
-* I only provide an `x86_64` installer. There's no inherent reason for this, it's just that I'm being lazy.
 * These libs do not (yet?) include `ucrt.lib`.
+* I only provide an `x86_64` installer. There's no inherent reason for this, it's just that I'm being lazy.
 * I wrote this in a very short space of time so this should be considered alpha quality software (if we're being very generous). Honestly it's probably better to just download the zip file and install the libs manually. That way you'll avoid any scary warnings berating you for downloading software from the internet. Which you should never do. 👀
 
 ## The future
