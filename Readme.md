@@ -13,6 +13,7 @@ This will install the VS code package manager then open up the GUI installer. Yo
 
 Wait for that to finish then run this installer. Alternatively, see [Manually Install Only the Libs](#manually-install-only-the=libs).
 
+    > Invoke-WebRequest https://github.com/ChrisDenton/minwinsdk/releases/download/0.0.1/minwinsdk.exe  -OutFile minwinsdk.exe
     > .\minwinsdk
 
 If all goes well you should finally be able to install rustup
@@ -22,7 +23,7 @@ If all goes well you should finally be able to install rustup
 
 ## Manually Install Only the Libs
 
-Download minwinsdk.zip and unzip it somewhere nice. You may want to set the `LIB` environment variable for your default target.
+Download [Minimal.Windows.SDK.zip](https://github.com/ChrisDenton/minwinsdk/releases/download/0.0.1/Minimal.Windows.SDK.zip) and unzip it somewhere nice. You may want to set the `LIB` environment variable for your default target.
 
 ## Using the libs
 
