@@ -1,0 +1,21 @@
+LIBRARY DSPARSE
+EXPORTS
+DsCrackSpn2A
+DsCrackSpn2W
+DsCrackSpn3W
+DsCrackSpn4W
+DsCrackSpnA
+DsCrackSpnW
+DsCrackUnquotedMangledRdnA
+DsCrackUnquotedMangledRdnW
+DsGetRdnW
+DsIsMangledDnA
+DsIsMangledDnW
+DsIsMangledRdnValueA
+DsIsMangledRdnValueW
+DsMakeSpnA
+DsMakeSpnW
+DsQuoteRdnValueA
+DsQuoteRdnValueW
+DsUnquoteRdnValueA
+DsUnquoteRdnValueW

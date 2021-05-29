@@ -1,0 +1,17 @@
+LIBRARY dhcpcsvc
+EXPORTS
+DhcpCApiCleanup
+DhcpCApiInitialize
+DhcpDeRegisterParamChange
+DhcpGetOriginalSubnetMask
+DhcpRegisterParamChange
+DhcpRemoveDNSRegistrations
+DhcpRequestParams
+DhcpUndoRequestParams
+McastApiCleanup
+McastApiStartup
+McastEnumerateScopes
+McastGenUID
+McastReleaseAddress
+McastRenewAddress
+McastRequestAddress

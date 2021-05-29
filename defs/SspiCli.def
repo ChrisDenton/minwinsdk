@@ -1,0 +1,8 @@
+LIBRARY SspiCli
+EXPORTS
+QueryContextAttributesExA
+QueryContextAttributesExW
+QueryCredentialsAttributesExA
+QueryCredentialsAttributesExW
+SspiDecryptAuthIdentityEx
+SspiEncryptAuthIdentityEx

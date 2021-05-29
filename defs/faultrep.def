@@ -1,0 +1,6 @@
+LIBRARY faultrep
+EXPORTS
+AddERExcludedApplicationA
+AddERExcludedApplicationW
+ReportFault
+WerReportHang

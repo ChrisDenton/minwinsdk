@@ -1,0 +1,10 @@
+LIBRARY NETSH
+EXPORTS
+MatchEnumTag
+MatchToken
+PreprocessCommand
+PrintError
+PrintMessage
+PrintMessageFromModule
+RegisterContext
+RegisterHelper

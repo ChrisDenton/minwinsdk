@@ -1,0 +1,8 @@
+LIBRARY Amsi
+EXPORTS
+AmsiCloseSession
+AmsiInitialize
+AmsiOpenSession
+AmsiScanBuffer
+AmsiScanString
+AmsiUninitialize

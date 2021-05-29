@@ -1,0 +1,6 @@
+LIBRARY query
+EXPORTS
+BindIFilterFromStorage
+BindIFilterFromStream
+LoadIFilter
+LoadIFilterEx

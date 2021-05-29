@@ -1,0 +1,5 @@
+[package]
+name = "minwinsdk"
+version = "0.0.1"
+authors = ["Chris Denton <christophersdenton@gmail.com>"]
+edition = "2018"

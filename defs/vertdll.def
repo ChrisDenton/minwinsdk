@@ -1,0 +1,5 @@
+LIBRARY vertdll
+EXPORTS
+WaitOnAddress
+WakeByAddressAll
+WakeByAddressSingle

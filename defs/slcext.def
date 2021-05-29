@@ -1,0 +1,6 @@
+LIBRARY slcext
+EXPORTS
+SLAcquireGenuineTicket
+SLActivateProduct
+SLGetReferralInformation
+SLGetServerStatus

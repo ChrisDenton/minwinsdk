@@ -1,0 +1,3 @@
+LIBRARY APPHELP
+EXPORTS
+ApphelpCheckShellObject

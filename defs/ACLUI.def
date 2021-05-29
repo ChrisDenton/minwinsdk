@@ -1,0 +1,5 @@
+LIBRARY ACLUI
+EXPORTS
+CreateSecurityPage
+EditSecurity
+EditSecurityAdvanced

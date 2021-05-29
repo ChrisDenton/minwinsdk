@@ -1,0 +1,8 @@
+LIBRARY sfc
+EXPORTS
+SRSetRestorePointA
+SRSetRestorePointW
+SfcGetNextProtectedFile
+SfcIsFileProtected
+SfcIsKeyProtected
+SfpVerifyFile

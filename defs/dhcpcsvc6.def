@@ -1,0 +1,8 @@
+LIBRARY dhcpcsvc6
+EXPORTS
+Dhcpv6CApiCleanup
+Dhcpv6CApiInitialize
+Dhcpv6ReleasePrefix
+Dhcpv6RenewPrefix
+Dhcpv6RequestParams
+Dhcpv6RequestPrefix

@@ -1,0 +1,4 @@
+LIBRARY DirectML
+EXPORTS
+DMLCreateDevice
+DMLCreateDevice1

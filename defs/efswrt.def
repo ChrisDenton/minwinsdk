@@ -1,0 +1,4 @@
+LIBRARY efswrt
+EXPORTS
+ProtectFileToEnterpriseIdentity
+UnprotectFile

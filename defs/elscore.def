@@ -1,0 +1,7 @@
+LIBRARY elscore
+EXPORTS
+MappingDoAction
+MappingFreePropertyBag
+MappingFreeServices
+MappingGetServices
+MappingRecognizeText

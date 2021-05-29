@@ -1,0 +1,4 @@
+LIBRARY mstask
+EXPORTS
+GetNetScheduleAccountInformation
+SetNetScheduleAccountInformation

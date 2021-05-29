@@ -1,0 +1,9 @@
+LIBRARY MSPORTS
+EXPORTS
+ComDBClaimNextFreePort
+ComDBClaimPort
+ComDBClose
+ComDBGetCurrentPortUsage
+ComDBOpen
+ComDBReleasePort
+ComDBResizeDatabase

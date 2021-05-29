@@ -1,0 +1,12 @@
+LIBRARY TOKENBINDING
+EXPORTS
+TokenBindingDeleteAllBindings
+TokenBindingDeleteBinding
+TokenBindingGenerateBinding
+TokenBindingGenerateID
+TokenBindingGenerateIDForUri
+TokenBindingGenerateMessage
+TokenBindingGetHighestSupportedVersion
+TokenBindingGetKeyTypesClient
+TokenBindingGetKeyTypesServer
+TokenBindingVerifyMessage

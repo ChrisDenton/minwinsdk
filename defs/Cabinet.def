@@ -1,0 +1,24 @@
+LIBRARY Cabinet
+EXPORTS
+CloseCompressor
+CloseDecompressor
+Compress
+CreateCompressor
+CreateDecompressor
+Decompress
+FCIAddFile
+FCICreate
+FCIDestroy
+FCIFlushCabinet
+FCIFlushFolder
+FDICopy
+FDICreate
+FDIDestroy
+FDIIsCabinet
+FDITruncateCabinet
+QueryCompressorInformation
+QueryDecompressorInformation
+ResetCompressor
+ResetDecompressor
+SetCompressorInformation
+SetDecompressorInformation

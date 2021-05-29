@@ -1,0 +1,8 @@
+LIBRARY bthprops
+EXPORTS
+BluetoothAuthenticateDevice
+BluetoothAuthenticateDeviceEx
+BluetoothAuthenticateMultipleDevices
+BluetoothDisplayDeviceProperties
+BluetoothSelectDevices
+BluetoothSelectDevicesFree

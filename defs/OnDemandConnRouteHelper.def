@@ -1,0 +1,7 @@
+LIBRARY OnDemandConnRouteHelper
+EXPORTS
+FreeInterfaceContextTable
+GetInterfaceContextTableForHostName
+OnDemandGetRoutingHint
+OnDemandRegisterNotification
+OnDemandUnRegisterNotification

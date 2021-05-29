@@ -1,0 +1,10 @@
+LIBRARY certpoleng
+EXPORTS
+PstAcquirePrivateKey
+PstGetCertificateChain
+PstGetCertificates
+PstGetTrustAnchors
+PstGetTrustAnchorsEx
+PstGetUserNameForCertificate
+PstMapCertificate
+PstValidate

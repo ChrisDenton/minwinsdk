@@ -1,0 +1,23 @@
+LIBRARY wer
+EXPORTS
+WerAddExcludedApplication
+WerFreeString
+WerRemoveExcludedApplication
+WerReportAddDump
+WerReportAddFile
+WerReportCloseHandle
+WerReportCreate
+WerReportSetParameter
+WerReportSetUIOption
+WerReportSubmit
+WerStoreClose
+WerStoreGetFirstReportKey
+WerStoreGetNextReportKey
+WerStoreGetReportCount
+WerStoreGetSizeOnDisk
+WerStoreOpen
+WerStorePurge
+WerStoreQueryReportMetadataV1
+WerStoreQueryReportMetadataV2
+WerStoreQueryReportMetadataV3
+WerStoreUploadReport

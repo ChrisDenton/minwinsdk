@@ -1,0 +1,21 @@
+LIBRARY PROJECTEDFSLIB
+EXPORTS
+PrjAllocateAlignedBuffer
+PrjClearNegativePathCache
+PrjCompleteCommand
+PrjDeleteFile
+PrjDoesNameContainWildCards
+PrjFileNameCompare
+PrjFileNameMatch
+PrjFillDirEntryBuffer
+PrjFillDirEntryBuffer2
+PrjFreeAlignedBuffer
+PrjGetOnDiskFileState
+PrjGetVirtualizationInstanceInfo
+PrjMarkDirectoryAsPlaceholder
+PrjStartVirtualizing
+PrjStopVirtualizing
+PrjUpdateFileIfNeeded
+PrjWriteFileData
+PrjWritePlaceholderInfo
+PrjWritePlaceholderInfo2

@@ -1,0 +1,6 @@
+LIBRARY dbgeng
+EXPORTS
+DebugConnect
+DebugConnectWide
+DebugCreate
+DebugCreateEx

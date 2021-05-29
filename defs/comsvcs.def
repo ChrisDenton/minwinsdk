@@ -1,0 +1,9 @@
+LIBRARY comsvcs
+EXPORTS
+CoCreateActivity
+CoEnterServiceDomain
+CoLeaveServiceDomain
+GetManagedExtensions
+MTSCreateActivity
+RecycleSurrogate
+SafeRef

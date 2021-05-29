@@ -1,0 +1,13 @@
+LIBRARY newdev
+EXPORTS
+DiInstallDevice
+DiInstallDriverA
+DiInstallDriverW
+DiRollbackDriver
+DiShowUpdateDevice
+DiShowUpdateDriver
+DiUninstallDevice
+DiUninstallDriverA
+DiUninstallDriverW
+UpdateDriverForPlugAndPlayDevicesA
+UpdateDriverForPlugAndPlayDevicesW

@@ -1,0 +1,12 @@
+LIBRARY CRYPTUI
+EXPORTS
+CertSelectionGetSerializedBlob
+CryptUIDlgCertMgr
+CryptUIDlgSelectCertificateFromStore
+CryptUIDlgViewCertificateA
+CryptUIDlgViewCertificateW
+CryptUIDlgViewContext
+CryptUIWizDigitalSign
+CryptUIWizExport
+CryptUIWizFreeDigitalSignContext
+CryptUIWizImport

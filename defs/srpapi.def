@@ -1,0 +1,11 @@
+LIBRARY srpapi
+EXPORTS
+SrpCloseThreadNetworkContext
+SrpCreateThreadNetworkContext
+SrpDisablePermissiveModeFileEncryption
+SrpDoesPolicyAllowAppExecution
+SrpEnablePermissiveModeFileEncryption
+SrpGetEnterpriseIds
+SrpGetEnterprisePolicy
+SrpIsTokenService
+SrpSetTokenEnterpriseId

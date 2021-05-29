@@ -1,0 +1,13 @@
+LIBRARY qwave
+EXPORTS
+QOSAddSocketToFlow
+QOSCancel
+QOSCloseHandle
+QOSCreateHandle
+QOSEnumerateFlows
+QOSNotifyFlow
+QOSQueryFlow
+QOSRemoveSocketFromFlow
+QOSSetFlow
+QOSStartTrackingClient
+QOSStopTrackingClient

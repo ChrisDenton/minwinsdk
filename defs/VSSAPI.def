@@ -1,0 +1,3 @@
+LIBRARY VSSAPI
+EXPORTS
+CreateVssExpressWriterInternal

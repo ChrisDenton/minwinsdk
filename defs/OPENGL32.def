@@ -1,0 +1,21 @@
+LIBRARY OPENGL32
+EXPORTS
+wglCopyContext
+wglCreateContext
+wglCreateLayerContext
+wglDeleteContext
+wglDescribeLayerPlane
+wglGetCurrentContext
+wglGetCurrentDC
+wglGetLayerPaletteEntries
+wglGetProcAddress
+wglMakeCurrent
+wglRealizeLayerPalette
+wglSetLayerPaletteEntries
+wglShareLists
+wglSwapLayerBuffers
+wglSwapMultipleBuffers
+wglUseFontBitmapsA
+wglUseFontBitmapsW
+wglUseFontOutlinesA
+wglUseFontOutlinesW

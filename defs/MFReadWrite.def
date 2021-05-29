@@ -1,0 +1,7 @@
+LIBRARY MFReadWrite
+EXPORTS
+MFCreateSinkWriterFromMediaSink
+MFCreateSinkWriterFromURL
+MFCreateSourceReaderFromByteStream
+MFCreateSourceReaderFromMediaSource
+MFCreateSourceReaderFromURL

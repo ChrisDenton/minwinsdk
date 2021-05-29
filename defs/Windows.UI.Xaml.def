@@ -1,0 +1,4 @@
+LIBRARY Windows.UI.Xaml
+EXPORTS
+InitializeXamlDiagnostic
+InitializeXamlDiagnosticsEx

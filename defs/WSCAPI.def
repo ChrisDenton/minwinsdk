@@ -1,0 +1,8 @@
+LIBRARY WSCAPI
+EXPORTS
+WscGetAntiMalwareUri
+WscGetSecurityProviderHealth
+WscQueryAntiMalwareUri
+WscRegisterForChanges
+WscRegisterForUserNotifications
+WscUnRegisterChanges

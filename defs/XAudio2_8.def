@@ -1,0 +1,6 @@
+LIBRARY XAudio2_8
+EXPORTS
+CreateAudioReverb
+CreateAudioVolumeMeter
+CreateFX
+XAudio2CreateWithVersionInfo

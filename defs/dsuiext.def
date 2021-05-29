@@ -1,0 +1,6 @@
+LIBRARY dsuiext
+EXPORTS
+DsBrowseForContainerA
+DsBrowseForContainerW
+DsGetFriendlyClassName
+DsGetIcon

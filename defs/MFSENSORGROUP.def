@@ -1,0 +1,8 @@
+LIBRARY MFSENSORGROUP
+EXPORTS
+MFCreateRelativePanelWatcher
+MFCreateSensorActivityMonitor
+MFCreateSensorGroup
+MFCreateSensorProfile
+MFCreateSensorProfileCollection
+MFCreateSensorStream

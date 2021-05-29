@@ -1,0 +1,9 @@
+LIBRARY EVR
+EXPORTS
+MFCreateVideoMixer
+MFCreateVideoMixerAndPresenter
+MFCreateVideoPresenter
+MFCreateVideoSampleAllocator
+MFCreateVideoSampleFromSurface
+MFGetPlaneSize
+MFIsFormatYUV

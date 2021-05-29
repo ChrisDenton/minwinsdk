@@ -1,0 +1,4 @@
+LIBRARY fxsutility
+EXPORTS
+CanSendToFaxRecipient
+SendToFaxRecipient

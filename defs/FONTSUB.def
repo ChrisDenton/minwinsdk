@@ -1,0 +1,4 @@
+LIBRARY FONTSUB
+EXPORTS
+CreateFontPackage
+MergeFontPackage

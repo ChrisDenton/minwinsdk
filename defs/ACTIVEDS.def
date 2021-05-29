@@ -1,0 +1,24 @@
+LIBRARY ACTIVEDS
+EXPORTS
+ADsBuildEnumerator
+ADsBuildVarArrayInt
+ADsBuildVarArrayStr
+ADsDecodeBinaryData
+ADsEncodeBinaryData
+ADsEnumerateNext
+ADsFreeEnumerator
+ADsGetLastError
+ADsGetObject
+ADsOpenObject
+ADsSetLastError
+AdsFreeAdsValues
+AdsTypeToPropVariant
+AllocADsMem
+AllocADsStr
+BinarySDToSecurityDescriptor
+FreeADsMem
+FreeADsStr
+PropVariantToAdsType
+ReallocADsMem
+ReallocADsStr
+SecurityDescriptorToBinarySD

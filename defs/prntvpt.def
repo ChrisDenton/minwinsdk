@@ -1,0 +1,13 @@
+LIBRARY prntvpt
+EXPORTS
+PTCloseProvider
+PTConvertDevModeToPrintTicket
+PTConvertPrintTicketToDevMode
+PTGetPrintCapabilities
+PTGetPrintDeviceCapabilities
+PTGetPrintDeviceResources
+PTMergeAndValidatePrintTicket
+PTOpenProvider
+PTOpenProviderEx
+PTQuerySchemaVersionSupport
+PTReleaseMemory

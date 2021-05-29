@@ -1,0 +1,4 @@
+LIBRARY NORMALIZ
+EXPORTS
+IdnToAscii
+IdnToUnicode

@@ -1,0 +1,6 @@
+LIBRARY ualapi
+EXPORTS
+UalInstrument
+UalRegisterProduct
+UalStart
+UalStop

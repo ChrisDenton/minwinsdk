@@ -1,0 +1,20 @@
+LIBRARY davclnt
+EXPORTS
+DavCancelConnectionsToServer
+DavGetTheLockOwnerOfTheFile
+DavInvalidateCache
+DavRegisterAuthCallback
+DavUnregisterAuthCallback
+NPAddConnection
+NPAddConnection3
+NPCancelConnection
+NPCloseEnum
+NPEnumResource
+NPFormatNetworkName
+NPGetCaps
+NPGetConnection
+NPGetResourceInformation
+NPGetResourceParent
+NPGetUniversalName
+NPGetUser
+NPOpenEnum

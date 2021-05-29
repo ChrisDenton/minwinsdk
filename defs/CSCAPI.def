@@ -1,0 +1,6 @@
+LIBRARY CSCAPI
+EXPORTS
+OfflineFilesEnable
+OfflineFilesQueryStatus
+OfflineFilesQueryStatusEx
+OfflineFilesStart

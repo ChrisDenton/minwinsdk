@@ -1,0 +1,13 @@
+LIBRARY rstrtmgr
+EXPORTS
+RmAddFilter
+RmCancelCurrentTask
+RmEndSession
+RmGetFilterList
+RmGetList
+RmJoinSession
+RmRegisterResources
+RmRemoveFilter
+RmRestart
+RmShutdown
+RmStartSession

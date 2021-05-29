@@ -1,0 +1,6 @@
+LIBRARY WinHvEmulation
+EXPORTS
+WHvEmulatorCreateEmulator
+WHvEmulatorDestroyEmulator
+WHvEmulatorTryIoEmulation
+WHvEmulatorTryMmioEmulation

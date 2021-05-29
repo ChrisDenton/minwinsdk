@@ -1,0 +1,7 @@
+LIBRARY SCARDDLG
+EXPORTS
+GetOpenCardNameA
+GetOpenCardNameW
+SCardDlgExtendedError
+SCardUIDlgSelectCardA
+SCardUIDlgSelectCardW

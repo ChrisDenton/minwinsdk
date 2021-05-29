@@ -1,0 +1,4 @@
+LIBRARY wnvapi
+EXPORTS
+WnvOpen
+WnvRequestNotification

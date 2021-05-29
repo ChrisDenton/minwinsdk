@@ -1,0 +1,7 @@
+LIBRARY wcmapi
+EXPORTS
+WcmFreeMemory
+WcmGetProfileList
+WcmQueryProperty
+WcmSetProfileList
+WcmSetProperty

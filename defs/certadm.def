@@ -1,0 +1,20 @@
+LIBRARY certadm
+EXPORTS
+CertSrvBackupClose
+CertSrvBackupEnd
+CertSrvBackupFree
+CertSrvBackupGetBackupLogsW
+CertSrvBackupGetDatabaseNamesW
+CertSrvBackupGetDynamicFileListW
+CertSrvBackupOpenFileW
+CertSrvBackupPrepareW
+CertSrvBackupRead
+CertSrvBackupTruncateLogs
+CertSrvIsServerOnlineW
+CertSrvRestoreEnd
+CertSrvRestoreGetDatabaseLocationsW
+CertSrvRestorePrepareW
+CertSrvRestoreRegisterComplete
+CertSrvRestoreRegisterThroughFile
+CertSrvRestoreRegisterW
+CertSrvServerControlW

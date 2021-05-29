@@ -1,0 +1,13 @@
+LIBRARY msdmo
+EXPORTS
+DMOEnum
+DMOGetName
+DMOGetTypes
+DMORegister
+DMOUnregister
+MoCopyMediaType
+MoCreateMediaType
+MoDeleteMediaType
+MoDuplicateMediaType
+MoFreeMediaType
+MoInitMediaType

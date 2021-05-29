@@ -1,0 +1,7 @@
+LIBRARY Wldp
+EXPORTS
+WldpGetLockdownPolicy
+WldpIsClassInApprovedList
+WldpIsDynamicCodePolicyEnabled
+WldpQueryDynamicCodeTrust
+WldpSetDynamicCodeTrust

@@ -1,0 +1,13 @@
+LIBRARY WOFUTIL
+EXPORTS
+WofEnumEntries
+WofFileEnumFiles
+WofGetDriverVersion
+WofIsExternalFile
+WofSetFileDataLocation
+WofShouldCompressBinaries
+WofWimAddEntry
+WofWimEnumFiles
+WofWimRemoveEntry
+WofWimSuspendEntry
+WofWimUpdateEntry
