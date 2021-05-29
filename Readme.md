@@ -4,7 +4,7 @@ Installs only the necessary Windows 10 `.lib` files to save you having to downlo
 
 ## How to Install
 
-First Visual Studio needs to be installed. Using powershell:
+First Visual Studio needs to be installed, but not as much as usual. Using powershell:
 
     > Invoke-WebRequest https://aka.ms/vs/16/release/vs_buildtools.exe -OutFile vs_buildtools.exe
     > .\vs_buildtools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.Component.VC.Runtime.UCRTSDK
