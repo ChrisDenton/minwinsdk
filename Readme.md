@@ -11,7 +11,7 @@ First Visual Studio needs to be installed. Using powershell:
 
 This will install the VS code package manager then open up the GUI installer. You can click straight on install. All the necessary components are already selected.
 
-Wait for that to finish then run this installer. Alternatively, see [Manually Install Only the Libs](#manually-install-only-the=libs).
+Wait for that to finish then run this installer. Alternatively, see [Manually Install Only the Libs](#manually-install-only-the-libs).
 
     > Invoke-WebRequest https://github.com/ChrisDenton/minwinsdk/releases/download/0.0.1/minwinsdk.exe  -OutFile minwinsdk.exe
     > .\minwinsdk
