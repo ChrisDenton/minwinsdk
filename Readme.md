@@ -1,6 +1,6 @@
 # Minimal Windows 10 SDK
 
-Installs only the necessary Windows 10 `.lib` files to save you having to download the full Visual Studio package.
+Installs only the necessary Windows 10 `.lib` files to save you having to download the full Visual Studio package. You can either download the [zip file](https://github.com/ChrisDenton/minwinsdk/releases/download/0.0.1/Minimal.Windows.SDK.zip) or the [installer](https://github.com/ChrisDenton/minwinsdk/releases/download/0.0.1/minwinsdk.exe).
 
 ## How to Install
 
