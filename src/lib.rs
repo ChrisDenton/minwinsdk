@@ -30,7 +30,7 @@ pub const FOLDERID_UserProgramFilesCommon: &Guid =
 pub fn known_folder(id: &Guid) -> Result<PathBuf, u32> {
 	unsafe {
 		let mut path_ptr = ptr::null_mut();
-		let result = SHGetKnownFolderPath(id, KF_FLAG_DONT_VERIFY, 0, &mut path_ptr);
+		let result = SHGetKnownFolderPath(id, KF_FLAG_CREATE, 0, &mut path_ptr);
 		if result == 0 {
 			let mut len = 0;
 			let mut pos = path_ptr;
@@ -153,7 +153,7 @@ pub fn broadcast_changes() -> io::Result<()> {
 	}
 }
 
-const KF_FLAG_DONT_VERIFY: u32 = 0x4000;
+const KF_FLAG_CREATE: u32 = 0x8000;
 const HKEY_CURRENT_USER: usize = 0x80000001;
 const KEY_QUERY_VALUE: u32 = 1;
 const KEY_SET_VALUE: u32 = 2;
