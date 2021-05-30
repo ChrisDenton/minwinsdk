@@ -1,5 +1,6 @@
 use std::{io, iter::once, path::PathBuf, ptr, slice};
 
+#[rustfmt::skip]
 mod imports;
 pub use imports::LIBS;
 

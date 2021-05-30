@@ -58,7 +58,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 	println!("Successfully installed libs to:");
 	println!("\t{}", libs.display());
 	println!("To start using these libs you may need to restart your current shell.");
-    println!("But you might want to install rustup if you haven't already.");
+	println!("But you might want to install rustup if you haven't already.");
 
 	Ok(())
 }
