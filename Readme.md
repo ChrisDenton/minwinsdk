@@ -9,7 +9,7 @@ First Visual Studio needs to be installed, but not as much as usual. Using power
     > Invoke-WebRequest https://aka.ms/vs/16/release/vs_buildtools.exe -OutFile vs_buildtools.exe
     > .\vs_buildtools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64 --add Microsoft.Component.VC.Runtime.UCRTSDK
 
-This will install the VS code package manager then open up the GUI installer. You can click straight on install. All the necessary components are already selected.
+This will install the Visual Studio package manager then open up the GUI installer. You can click straight on install. All the necessary components are already selected.
 
 Wait for that to finish then run this installer. Alternatively, see [Manually Install Only the Libs](#manually-install-only-the-libs).
 
