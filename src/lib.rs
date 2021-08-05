@@ -72,6 +72,17 @@ impl RegKey {
 			}
 		}
 	}
+	pub fn delete_value(&self, name: &str) -> Result<(), io::Error> {
+		let name: Vec<u16> = name.encode_utf16().chain(once(0)).collect();
+		unsafe {
+			let result = RegDeleteValueW(self.inner, name.as_ptr());
+			if result != 0 {
+				Err(io::Error::from_raw_os_error(result as _))
+			} else {
+				Ok(())
+			}
+		}
+	}
 	/// Get a value from this key.
 	pub fn query_value(&self, name: &str) -> Result<String, io::Error> {
 		let name: Vec<u16> = name.encode_utf16().chain(once(0)).collect();
@@ -190,6 +201,7 @@ extern "system" {
 		lpData: *const u16,
 		lpcbData: u32,
 	) -> u32;
+	fn RegDeleteValueW(hKey: usize, lpValueName: *const u16) -> u32;
 	fn RegCloseKey(hKey: usize) -> u32;
 }
 
