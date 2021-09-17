@@ -8,7 +8,7 @@ use std::{
 struct Lib {
 	ident: String,
 	name: String,
-    machine: String,
+	machine: String,
 	path: String,
 }
 
@@ -39,7 +39,7 @@ fn make_libs(machine: &str, libraries: &mut Vec<Lib>) -> io::Result<()> {
 		libraries.push(Lib {
 			ident,
 			name: name.to_string(),
-            machine: machine.to_string(),
+			machine: machine.to_string(),
 			path: out_path.display().to_string(),
 		});
 	}
